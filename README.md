@@ -13,8 +13,5 @@ Protótipo do app PETmatch
 
 
 
-
-
-
-[Organização - anotações, design e links úteis](https://bit.ly/Notion_ProjetoMobile)
-[Documentação](https://bit.ly/Documentacao_ProjetoMobile)
+> [Organização - anotações, design e links úteis](https://bit.ly/Notion_ProjetoMobile) e
+> [Documentação](https://bit.ly/Documentacao_ProjetoMobile)
