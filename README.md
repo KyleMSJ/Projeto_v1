@@ -7,7 +7,7 @@ Protótipo do app PETmatch
 - Caio Marcelo da Silva de Jesus, A.K.A @KyleMSJ 
 - Filipe Gomes Cruvinel,
 - Leonardo Vinicius Martins Cunha,
-- Vitória Elisa Fernandes,
+- Vitória Elisa Fernandes, A.K.A @Vihelisa
 - Vitório Serafini Bergamin, 
 
 
