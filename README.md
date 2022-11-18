@@ -8,7 +8,7 @@ Protótipo do app PETmatch
 - Filipe Gomes Cruvinel,
 - Leonardo Vinicius Martins Cunha,
 - Vitória Elisa Fernandes, A.K.A @Vihelisa
-- Vitório Serafini Bergamin, 
+- Vitório Serafini Bergamin, A.K.A @vitoriosb
 
 
 
