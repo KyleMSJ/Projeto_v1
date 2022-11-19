@@ -1,7 +1,8 @@
 <resources>
-    <string name="app_name">Projeto v_1</string>
+    <string name="app_name">Projeto v1</string>
     <string name="entrar">Entrar</string>
     <string name="proximo">Próximo</string>
+    <string name="confirma_cadastro">Confirmar cadastro</string>
     <string name="text_cadastro">Cadastre seus animais no PETmatch, o app para cruzamento de animais de forma amigável e consciente</string>
     <string name="esqueci_senha">Esqueci minha senha</string>
     <string name="cadastro_novo">Cadastrar novo usuário</string>

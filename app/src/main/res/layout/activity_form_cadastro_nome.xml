@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/teal"
-        tools:context=".FormLogin">
+        tools:context=".FormCadastroNome">
 
         <ImageView
             android:id="@+id/logo"
@@ -60,7 +60,6 @@
             android:id="@+id/Sobrenome"
             style="@style/Edit_Text"
             android:hint="Sobrenome:"
-            android:inputType="textPassword"
             app:layout_constraintStart_toStartOf="@id/containerComponents"
             app:layout_constraintEnd_toEndOf="@id/containerComponents"
             app:layout_constraintTop_toBottomOf="@id/FirstName"
@@ -99,13 +98,15 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/btn_proximo" />
 
-            <TextView
+            <Button
+                android:id="@+id/btn_login"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
                 android:text="Fazer Login"
+                android:background="@color/transparent"
                 android:textColor="@color/purple"
-                android:textSize="20sp"
+                android:textSize="16sp"
                 android:textStyle="bold"
                 />
 
