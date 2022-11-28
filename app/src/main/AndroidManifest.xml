@@ -13,7 +13,27 @@
         android:theme="@style/Theme.ProjetoV_1"
         tools:targetApi="31" >
         <activity
+            android:name=".FormLoginCadastro"
+            android:exported="true" > <!-- Inicia na tela de Login/Cadastro -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".FormCadastroEmail"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".FormCadastroNome"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
@@ -29,19 +49,6 @@
         <activity
             android:name=".MainActivity"
             android:exported="false" >
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".FormCadastroNome"
-            android:exported="true" > <!-- Inicia na tela de Cadastro -->
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

@@ -2,6 +2,8 @@
     <string name="app_name">Projeto v1</string>
     <string name="entrar">Entrar</string>
     <string name="proximo">Próximo</string>
+    <string name="entrar_inicial">Entrar com Login e Senha</string>
+    <string name="cadastrar_inicial">Cadastrar novo usuário</string>
     <string name="confirma_cadastro">Confirmar cadastro</string>
     <string name="text_cadastro">Cadastre seus animais no PETmatch, o app para cruzamento de animais de forma amigável e consciente</string>
     <string name="esqueci_senha">Esqueci minha senha</string>
