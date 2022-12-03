@@ -1,4 +1,4 @@
-package com.example.projetov_1;
+package com.example.projetov_1.Cadastro;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import com.example.projetov_1.R;
 
 public class FormCadastroEmail extends AppCompatActivity {
 
@@ -22,12 +24,9 @@ public class FormCadastroEmail extends AppCompatActivity {
 
         Button btn_confirma = findViewById(R.id.btn_ConfirmarCadastro);
 
-        btn_confirma.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(FormCadastroEmail.this, FormLogin.class);
-                startActivity(i);
-            }
+        btn_confirma.setOnClickListener(v -> {
+            Intent i = new Intent(FormCadastroEmail.this, FormLogin.class);
+            startActivity(i);
         });
     }
 
@@ -35,12 +34,9 @@ public class FormCadastroEmail extends AppCompatActivity {
 
         Button btn_login = findViewById(R.id.btn_login);
 
-        btn_login.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(FormCadastroEmail.this, FormLogin.class);
-                startActivity(i);
-            }
+        btn_login.setOnClickListener(v -> {
+            Intent i = new Intent(FormCadastroEmail.this, FormLogin.class);
+            startActivity(i);
         });
     }
 }
