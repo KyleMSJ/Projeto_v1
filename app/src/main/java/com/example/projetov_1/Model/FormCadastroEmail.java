@@ -1,10 +1,9 @@
-package com.example.projetov_1.Cadastro;
+package com.example.projetov_1.Model;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 
 import com.example.projetov_1.R;

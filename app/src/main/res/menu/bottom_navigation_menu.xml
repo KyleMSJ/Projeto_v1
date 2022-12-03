@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_match"
+        android:enabled="true"
+        android:icon="@drawable/logo_match_color"
+        android:title="" />
+
+    <item
+        android:id="@+id/menu_message"
+        android:enabled="true"
+        android:icon="@drawable/logo_message_gray"
+        android:title=""/>
+    <item
+        android:id="@+id/menu_perfil"
+        android:enabled="true"
+        android:icon="@drawable/logo_perfil_gray"
+        android:title=""/>
+    <item
+        android:id="@+id/menu_shop"
+        android:enabled="true"
+        android:icon="@drawable/store_gray"
+        android:title=""/>
+
+
+</menu>

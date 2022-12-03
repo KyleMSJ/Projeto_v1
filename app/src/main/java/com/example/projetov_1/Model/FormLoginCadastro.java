@@ -1,4 +1,4 @@
-package com.example.projetov_1.Cadastro;
+package com.example.projetov_1.Model;
 
 import android.content.Intent;
 import android.os.Bundle;

@@ -1,4 +1,4 @@
-package com.example.projetov_1.Cadastro;
+package com.example.projetov_1.Model;
 
 import androidx.appcompat.app.AppCompatActivity;
 
