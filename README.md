@@ -5,7 +5,7 @@ Protótipo do app PETmatch
 ### Equipe:
 
 - Caio Marcelo da Silva de Jesus, A.K.A @KyleMSJ 
-- Filipe Gomes Cruvinel,
+- Filipe Gomes Cruvinel, A.K.A @FilipeCruvinel
 - Leonardo Vinicius Martins Cunha,
 - Vitória Elisa Fernandes, A.K.A @Vihelisa
 - Vitório Serafini Bergamin, A.K.A @vitoriosb
