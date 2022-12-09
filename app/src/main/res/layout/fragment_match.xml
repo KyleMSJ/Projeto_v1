@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="32dp"
+    tools:context=".Fragments.MatchFragment">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Frame Lucky -->
+
+            <View
+                android:id="@+id/containerComponents"
+                style="@style/ContainerComponentes"
+                android:layout_width="292dp"
+                android:layout_height="202dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="154dp"
+                android:layout_height="173dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/lucky"
+                app:civ_border_color="@color/transparent"
+                app:layout_constraintStart_toStartOf="@id/containerComponents"
+                app:layout_constraintTop_toTopOf="@id/containerComponents" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="178dp"
+                android:layout_marginTop="44dp"
+                android:text="@string/lucky"
+                android:textColor="#313131"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="@id/containerComponents"
+                app:layout_constraintTop_toTopOf="@id/containerComponents" />
+
+            <TextView
+                android:id="@+id/descricao"
+                style="@style/descricao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="178dp"
+                android:layout_marginTop="77dp"
+                android:gravity="top"
+                android:text="@string/descricao"
+                app:layout_constraintStart_toStartOf="@id/containerComponents"
+                app:layout_constraintTop_toTopOf="@id/containerComponents" />
+
+            <!-- Frame Buzz -->
+            <View
+                android:id="@+id/containerComponents1"
+                style="@style/ContainerComponentes"
+                android:layout_width="292dp"
+                android:layout_height="202dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="24dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/containerComponents" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="154dp"
+                android:layout_height="173dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/buzz"
+                app:civ_border_color="@color/transparent"
+                app:layout_constraintStart_toStartOf="@id/containerComponents1"
+                app:layout_constraintTop_toTopOf="@id/containerComponents1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="178dp"
+                android:layout_marginTop="44dp"
+                android:text="@string/buzz"
+                android:textColor="#313131"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="@id/containerComponents1"
+                app:layout_constraintTop_toTopOf="@id/containerComponents1" />
+
+            <TextView
+                android:id="@+id/descricao1"
+                style="@style/descricao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="178dp"
+                android:layout_marginTop="77dp"
+                android:gravity="top"
+                android:text="@string/descricao1"
+                app:layout_constraintStart_toStartOf="@id/containerComponents1"
+                app:layout_constraintTop_toTopOf="@id/containerComponents1" />
+
+            <!-- Frame Lika -->
+            <View
+                android:id="@+id/containerComponents2"
+                style="@style/ContainerComponentes"
+                android:layout_width="292dp"
+                android:layout_height="202dp"
+                android:layout_marginTop="485dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="154dp"
+                android:layout_height="173dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/lika"
+                app:civ_border_color="@color/transparent"
+                app:layout_constraintStart_toStartOf="@id/containerComponents2"
+                app:layout_constraintTop_toTopOf="@id/containerComponents2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="178dp"
+                android:layout_marginTop="44dp"
+                android:text="@string/lika"
+                android:textColor="#313131"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="@id/containerComponents2"
+                app:layout_constraintTop_toTopOf="@id/containerComponents2" />
+
+            <TextView
+                android:id="@+id/descricao2"
+                style="@style/descricao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="178dp"
+                android:layout_marginTop="77dp"
+                android:gravity="top"
+                android:text="@string/descricao2"
+                app:layout_constraintStart_toStartOf="@id/containerComponents2"
+                app:layout_constraintTop_toTopOf="@id/containerComponents2" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+
+</FrameLayout>
