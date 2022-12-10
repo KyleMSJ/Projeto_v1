@@ -41,4 +41,9 @@
             android:id="@+id/action_menu_visualizar_perfil_to_menu_match"
             app:destination="@id/menu_match" />
     </fragment>
+    <fragment
+        android:id="@+id/menu_perfil"
+        android:name="com.example.projetov_1.Fragments.PerfilFragment"
+        android:label="fragment_perfil"
+        tools:layout="@layout/fragment_perfil"/>
 </navigation>
