@@ -5,8 +5,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.TextView;
 
 import com.example.projetov_1.R;
+
+import org.w3c.dom.Text;
 
 public class FormLogin extends AppCompatActivity {
 
@@ -16,6 +19,7 @@ public class FormLogin extends AppCompatActivity {
         setContentView(R.layout.activity_form_login);
 
         entrar();
+        cadastrar();
     }
 
     private void entrar(){
@@ -24,6 +28,16 @@ public class FormLogin extends AppCompatActivity {
 
         btn_entrar.setOnClickListener(v -> {
             Intent i = new Intent(FormLogin.this, FormTelaInicial.class);
+            startActivity(i);
+        });
+    }
+
+    private void cadastrar(){
+
+        TextView cadastrar = findViewById(R.id.cadastrar_novo);
+
+        cadastrar.setOnClickListener(v -> {
+            Intent i = new Intent(FormLogin.this, FormCadastroNome.class);
             startActivity(i);
         });
     }

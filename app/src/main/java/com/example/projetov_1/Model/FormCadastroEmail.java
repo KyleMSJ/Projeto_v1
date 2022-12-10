@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.TextView;
 
 import com.example.projetov_1.R;
 
@@ -31,9 +32,9 @@ public class FormCadastroEmail extends AppCompatActivity {
 
     private void fazerLogin(){
 
-        Button btn_login = findViewById(R.id.btn_login);
+        TextView login = findViewById(R.id.fazer_login);
 
-        btn_login.setOnClickListener(v -> {
+        login.setOnClickListener(v -> {
             Intent i = new Intent(FormCadastroEmail.this, FormLogin.class);
             startActivity(i);
         });

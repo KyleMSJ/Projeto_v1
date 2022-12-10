@@ -12,7 +12,20 @@
         tools:layout="@layout/fragment_match" />
     <fragment
         android:id="@+id/menu_message"
-        android:name="com.example.projetov_1.Fragments.ChatsFragment"
-        android:label="fragment_chats"
-        tools:layout="@layout/fragment_chats" />
+        android:name="com.example.projetov_1.Fragments.ChatsMensagensFragment"
+        android:label="fragment_message"
+        tools:layout="@layout/fragment_chats_mensagens" >
+        <action
+            android:id="@+id/action_menu_message_to_menu_waiting"
+            app:destination="@id/menu_waiting" />
+    </fragment>
+    <fragment
+        android:id="@+id/menu_waiting"
+        android:name="com.example.projetov_1.Fragments.ChatsEsperandoFragment"
+        android:label="fragment_waiting"
+        tools:layout="@layout/fragment_chats_esperando">
+        <action
+            android:id="@+id/action_menu_waiting_to_menu_message"
+            app:destination="@id/menu_message" />
+    </fragment>
 </navigation>

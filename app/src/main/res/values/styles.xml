@@ -45,6 +45,11 @@
         <item name="android:background">@drawable/white_button</item>
     </style>
 
+    <style name="Transparent_Button">
+        <item name="textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
     <style name="BorderRectangle">
         <item name="android:layout_marginTop">21dp</item>
         <item name="android:layout_marginLeft">12dp</item>
