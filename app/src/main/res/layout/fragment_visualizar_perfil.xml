@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.VisualizarPerfilFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- Foto de perfil -->
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="384dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-55dp"
+            android:src="@drawable/lucky"
+            app:layout_constraintTop_toTopOf="parent" />
+        <!-- Container com borda -->
+        <ImageView
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/rectangle_profile"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <!-- Informações do perfil -->
+        <TextView
+            android:id="@+id/nome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="34dp"
+            android:text="@string/lucky_perfil"
+            android:textColor="#313131"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="@id/container"
+            app:layout_constraintTop_toTopOf="@id/container" />
+
+        <TextView
+            android:id="@+id/raca_perfil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/raca_perfil"
+            style="@style/descricao"
+            android:layout_marginTop="54dp"
+            android:textSize="20sp"
+            android:gravity="top"
+            app:layout_constraintStart_toStartOf="@id/nome"
+            app:layout_constraintTop_toTopOf="@id/nome"/>
+
+        <TextView
+            android:id="@+id/descricao"
+            style="@style/descricao_perfil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="top"
+            android:text="@string/descricao_perfil"
+            app:layout_constraintStart_toStartOf="@id/raca_perfil"
+            app:layout_constraintTop_toTopOf="@id/raca_perfil" />
+        <!-- Botão para voltar -->
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/voltar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/container"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="33dp"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/vector_left_arrow" />
+        <!-- Botão para voltar -->
+
+        <View
+            android:id="@+id/line1"
+            android:layout_width="383dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/darker_gray"
+            android:focusable="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/descricao" />
+
+        <TextView
+            android:id="@+id/sobre_mim"
+            style="@style/descricao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:text="@string/sobre_mim"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/line1"
+            app:layout_constraintStart_toStartOf="@id/nome"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/sobre_mim"
+            app:layout_constraintStart_toStartOf="@id/nome"
+            android:text="(insira texto aqui)"
+            android:layout_marginTop="25dp"/>
+
+        <View
+            android:id="@+id/line2"
+            android:layout_width="383dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="50dp"
+            android:background="@android:color/darker_gray"
+            android:focusable="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/sobre_mim" />
+
+        <TextView
+            android:id="@+id/interesses"
+            style="@style/descricao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:text="@string/meus_interesses"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/line2"
+            app:layout_constraintStart_toStartOf="@id/nome"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/interesses"
+            app:layout_constraintStart_toStartOf="@id/nome"
+            android:text="(insira texto aqui)"
+            android:layout_marginTop="25dp"/>
+
+        <!-- Botões inferiores -->
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="7dp"
+            android:layout_marginRight="100dp"
+            android:src="@drawable/vector_check"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:src="@drawable/vector_heart"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginBottom="7dp"
+            android:src="@drawable/vector_x"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</FrameLayout>

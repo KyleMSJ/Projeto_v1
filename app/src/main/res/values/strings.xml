@@ -5,11 +5,17 @@
     <string name="entrar_inicial">Entrar com Login e Senha</string>
     <string name="cadastrar_inicial">Cadastrar novo usuário</string>
     <string name="lucky"><b>Lucky</b></string>
+    <string name="lucky_perfil"><b>Lucky, 4</b></string>
     <string name="buzz"><b>Buzz</b></string>
     <string name="lika"><b>Lika</b></string>
     <string name="descricao"><b>Tutor:</b>Vitor\n<b>Raça:</b> Golden \nRetrivier\n<b>Idade: </b>4\n<b>Porte:</b> Grande</string>
     <string name="descricao1"><b>Tutor:</b>Vitor\n<b>Raça:</b> Liasa Apso\n<b>Idade: </b>7\n<b>Porte:</b> Pequeno</string>
     <string name="descricao2"><b>Tutor:</b>Elisa\n<b>Raça:</b> Border Collie\n<b>Idade: </b>4\n<b>Porte:</b> Grande</string>
+    <string name="raca_perfil"><b>Golden Retriever</b></string>
+    <string name="sobre_mim"><b>Sobre mim:</b></string>
+    <string name="meus_interesses"><b>Meus Interesses:</b></string>
+    <string name="descricao_perfil">Nome do tutor:\nIdade do tutor: \nMacho \nPorte\n localização</string>
+
     <string name="confirma_cadastro">Confirmar cadastro</string>
     <string name="text_cadastro">Cadastre seus animais no PETmatch, o app para cruzamento de animais de forma amigável e consciente</string>
     <string name="esqueci_senha">Esqueci minha senha?</string>

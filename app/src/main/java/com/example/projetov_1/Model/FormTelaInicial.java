@@ -1,6 +1,7 @@
 package com.example.projetov_1.Model;
 
 import android.os.Bundle;
+import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.NavController;
@@ -32,4 +33,5 @@ public class FormTelaInicial extends AppCompatActivity {
         navController = navHostFragment.getNavController();
         NavigationUI.setupWithNavController(binding.bottomNavigation,navController);
     }
+
 }

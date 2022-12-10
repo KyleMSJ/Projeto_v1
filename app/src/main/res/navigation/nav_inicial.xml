@@ -9,7 +9,11 @@
         android:id="@+id/menu_match"
         android:name="com.example.projetov_1.Fragments.MatchFragment"
         android:label="fragment_match"
-        tools:layout="@layout/fragment_match" />
+        tools:layout="@layout/fragment_match" >
+        <action
+            android:id="@+id/action_menu_match_to_menu_visualizar_perfil"
+            app:destination="@id/menu_visualizar_perfil" />
+    </fragment>
     <fragment
         android:id="@+id/menu_message"
         android:name="com.example.projetov_1.Fragments.ChatsMensagensFragment"
@@ -27,5 +31,14 @@
         <action
             android:id="@+id/action_menu_waiting_to_menu_message"
             app:destination="@id/menu_message" />
+    </fragment>
+    <fragment
+        android:id="@+id/menu_visualizar_perfil"
+        android:name="com.example.projetov_1.Fragments.VisualizarPerfilFragment"
+        android:label="fragment_visualizar_perfil"
+        tools:layout="@layout/fragment_visualizar_perfil">
+        <action
+            android:id="@+id/action_menu_visualizar_perfil_to_menu_match"
+            app:destination="@id/menu_match" />
     </fragment>
 </navigation>

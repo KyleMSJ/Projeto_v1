@@ -3,10 +3,12 @@ package com.example.projetov_1.Fragments;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.navigation.Navigation;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 import com.example.projetov_1.R;
 
@@ -61,6 +63,13 @@ public class MatchFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_match, container, false);
+        final View view = inflater.inflate(R.layout.fragment_match, container, false);
+
+        view.findViewById(R.id.lucky).setOnClickListener(v -> {
+
+            Navigation.findNavController(view).navigate(R.id.action_menu_match_to_menu_visualizar_perfil);
+        });
+
+        return view;
     }
 }
